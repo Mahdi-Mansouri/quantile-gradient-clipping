@@ -1,0 +1,114 @@
+{
+  "comparison": [
+    {
+      "rule": "gd",
+      "T": 350000,
+      "eta": 1.0,
+      "p": 0.6,
+      "rho": "",
+      "angle_to_maxmargin_deg": 0.0,
+      "angle_to_active_deg": 11.309932470779442,
+      "terminal_tau": "",
+      "T_times_tau": ""
+    },
+    {
+      "rule": "fixed",
+      "T": 350000,
+      "eta": 1.0,
+      "p": 0.6,
+      "rho": 0.2,
+      "angle_to_maxmargin_deg": 0.0,
+      "angle_to_active_deg": 11.309932470778891,
+      "terminal_tau": 0.2,
+      "T_times_tau": 70000.0
+    },
+    {
+      "rule": "type1",
+      "T": 350000,
+      "eta": 1.0,
+      "p": 0.6,
+      "rho": "",
+      "angle_to_maxmargin_deg": 11.309932474020162,
+      "angle_to_active_deg": 0.0,
+      "terminal_tau": 4.181763150636264e-06,
+      "T_times_tau": 1.4636171027226923
+    },
+    {
+      "rule": "type7",
+      "T": 350000,
+      "eta": 1.0,
+      "p": 0.6,
+      "rho": "",
+      "angle_to_maxmargin_deg": 2.5565839135936725,
+      "angle_to_active_deg": 8.753348560426362,
+      "terminal_tau": 7.11785546021792e-05,
+      "T_times_tau": 24.912494110762722
+    }
+  ],
+  "perturbation_by_dimension": {
+    "2": {
+      "n": 12,
+      "min": 0.00037926389765430025,
+      "median": 0.0026706178938351,
+      "max": 0.005504772441128866
+    },
+    "3": {
+      "n": 12,
+      "min": 0.0020987692584253535,
+      "median": 0.005330037741899498,
+      "max": 0.011883757719754567
+    },
+    "5": {
+      "n": 12,
+      "min": 0.002245706125285632,
+      "median": 0.007835397657930279,
+      "max": 0.012549376058741282
+    },
+    "10": {
+      "n": 12,
+      "min": 0.00862292769370856,
+      "median": 0.012333904195735202,
+      "max": 0.016776307871592358
+    },
+    "20": {
+      "n": 12,
+      "min": 0.013184328095429144,
+      "median": 0.018206542479947598,
+      "max": 0.0258157022413065
+    }
+  },
+  "step_size": [
+    {
+      "d": 5,
+      "rep": 0,
+      "seed": 2026092000,
+      "T": 350000,
+      "eta": 0.1,
+      "angle_to_predicted_deg": 0.006563083915799629,
+      "terminal_tau": 4.1430186835913224e-05
+    },
+    {
+      "d": 5,
+      "rep": 0,
+      "seed": 2026092000,
+      "T": 350000,
+      "eta": 1.0,
+      "angle_to_predicted_deg": 0.006536386714322482,
+      "terminal_tau": 4.181462403566851e-06
+    },
+    {
+      "d": 5,
+      "rep": 0,
+      "seed": 2026092000,
+      "T": 350000,
+      "eta": 5.0,
+      "angle_to_predicted_deg": 0.006519691728715019,
+      "terminal_tau": 8.418063248760207e-07
+    }
+  ],
+  "initialization": {
+    "protocol": "20 directions uniform in certified cone angle; radii U[0,1]; seed BASE_SEED+999",
+    "median_angle_deg": 0.2563338200126553,
+    "max_angle_deg": 2.058739295874971
+  }
+}
